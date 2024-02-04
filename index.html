@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Criptografia</title>
+</head>
+<body>
+
+    
+       
+            <img src="pngegg.png" alt="Logo">
+           
+        
+
+    <div class="container">
+        <h1>Criptografia</h1>
+              
+        <label for="inputText">Texto:</label>
+        <input type="text" id="inputText" placeholder="Insira o texto">
+        
+        <label for="outputText">Resultado:</label>
+        <textarea id="outputText" readonly></textarea>
+
+        <div class="options">
+            <label for="encrypt">Criptografar</label>
+            <input type="radio" id="encrypt" name="option" checked>
+            
+            <label for="decrypt">Descriptografar</label>
+            <input type="radio" id="decrypt" name="option">
+        </div>
+
+        <button onclick="processText()">Processar</button>
+        <button onclick="copyToClipboard()">Copiar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
